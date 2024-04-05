@@ -5,9 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/tst.unity
+  - enabled: 0
+    path: Assets/Scenes/tst.unity
     guid: ce4be9b09913ac84d8cdfffb955cb8ef
+  - enabled: 1
+    path: Assets/Scenes/Main Level.unity
+    guid: 72e9ae0004f881e45abae5ca32cf93aa
+  - enabled: 1
+    path: Assets/Scenes/Submarine_Level.unity
+    guid: 0cf7c95aaf468bd45b7fbc5482fe6f6e
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 3aa26458662a983499e429ddbefd36cc, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: e08c0c43380133b41b687131d641c9a4, type: 2}
