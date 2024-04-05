@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 2ab88b83e3c18304ca3ffc614aec804f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 265712
+  packageName: Frill Shark
+  packageVersion: 1.0
+  assetPath: Assets/radiuthree/Frillshark/Scripts/CameraController.cs
+  uploadId: 622479
