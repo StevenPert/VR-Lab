@@ -1,3 +1,4 @@
+using UnityEngine;
 
 public class SlowFall : MonoBehaviour
 {
@@ -33,5 +34,11 @@ public class SlowFall : MonoBehaviour
     public void DisableSlowFall()
     {
         isTriggered = false;
+    }
+
+    // Function to be called when the button is poked in Unity VR
+    public void OnButtonPoke()
+    {
+        EnableSlowFall(); // Trigger slow fall when the button is poked
     }
 }
