@@ -739,7 +739,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 0.5879946}
   m_Center: {x: 0, y: 0, z: 0.20600203}
@@ -6218,6 +6218,7 @@ GameObject:
   - component: {fileID: 2009022158}
   - component: {fileID: 2009022162}
   - component: {fileID: 2009022161}
+  - component: {fileID: 2009022163}
   m_Layer: 6
   m_Name: XR Origin (XR Rig)
   m_TagString: Player
@@ -6313,6 +6314,25 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2009022163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2009022157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9da1c2b7aa7ded48b720c340758539c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpButton: {fileID: 4616512449330590346, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  jumpHeight: 3
+  cc: {fileID: 2009022162}
+  groundAndCrateLayers:
+    serializedVersion: 2
+    m_Bits: 640
+  jumpCooldown: 1.5
 --- !u!1 &2030146167
 GameObject:
   m_ObjectHideFlags: 0
@@ -6945,7 +6965,7 @@ Transform:
   m_GameObject: {fileID: 2042430360974174023}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.014, y: 1.06, z: 0.135}
+  m_LocalPosition: {x: -0.014, y: 1.06, z: 0.339}
   m_LocalScale: {x: 0.33769602, y: 0.30138275, z: 0.089136295}
   m_ConstrainProportionsScale: 0
   m_Children:
